@@ -1,0 +1,34 @@
+
+     h1{
+         color:black;
+         font-family: "Lucida Console", "Courier New", monospace;
+     }
+     .div1{
+        border: solid;
+     }
+     .div2{
+         border: solid;
+         background:rgb(51, 125, 155);
+     }
+     *{
+         background: url(bg.png) no-repeat center fixed; 
+     background-size: cover;
+    }
+      .container {
+        display: flex;
+        flex-direction: row row-reverse column column-reverse;
+        text-Align:Center;
+      }
+      .item {
+          display:flex;
+        justify-content:flex-end;
+      }
+      img{transition-timing-function: ease-in;}
+img{
+	transition: width 1s;
+	transition: height 1s;
+}
+img:hover{
+  width: 150px;
+  height: 150px;
+}
